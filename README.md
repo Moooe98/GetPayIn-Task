@@ -16,12 +16,6 @@ A high-concurrency REST API for a flash sale system, built with **Laravel 12** a
 - **Automated Expiry**: Background job automatically cleans up expired holds and restores stock.
 - **Performance Optimized**: Database-level caching for stock queries to minimize load.
 
-## 🆕 Recent Updates
-
-- **Database Migration**: Switched from SQLite to **MySQL** for production-grade reliability.
-- **Concurrency Hardening**: Implemented pessimistic locking to ensure zero overselling.
-- **Project Cleanup**: Removed temporary setup scripts and test data for a clean professional structure.
-- **GitHub Integration**: Source code is now hosted on GitHub.
 
 ---
 
@@ -43,7 +37,7 @@ A high-concurrency REST API for a flash sale system, built with **Laravel 12** a
 
 ### 1. Clone & Install
 ```bash
-git clone <repository-url>
+git clone [<repository-url>](https://github.com/Moooe98/GetPayIn-Task)
 cd flash-sale-api
 composer install
 ```
