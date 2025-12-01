@@ -1,6 +1,8 @@
-# Flash Sale API ⚡
+# Flash Sale API
 
-A high-performance, concurrency-safe REST API built with **Laravel 12** and **MySQL**, designed to handle flash sales with zero overselling.
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/Moooe98/GetPayIn-Task)
+
+A high-concurrency REST API for a flash sale system, built with **Laravel 12** and **MySQL**., designed to handle flash sales with zero overselling.
 
 ![Laravel](https://img.shields.io/badge/Laravel-12.0-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
@@ -13,6 +15,13 @@ A high-performance, concurrency-safe REST API built with **Laravel 12** and **My
 - **Idempotent Webhooks**: Robust payment webhook processing that handles duplicate events and out-of-order delivery.
 - **Automated Expiry**: Background job automatically cleans up expired holds and restores stock.
 - **Performance Optimized**: Database-level caching for stock queries to minimize load.
+
+## 🆕 Recent Updates
+
+- **Database Migration**: Switched from SQLite to **MySQL** for production-grade reliability.
+- **Concurrency Hardening**: Implemented pessimistic locking to ensure zero overselling.
+- **Project Cleanup**: Removed temporary setup scripts and test data for a clean professional structure.
+- **GitHub Integration**: Source code is now hosted on GitHub.
 
 ---
 
