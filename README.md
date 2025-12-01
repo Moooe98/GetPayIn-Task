@@ -319,6 +319,4 @@ curl -X POST http://localhost:8000/api/payments/webhook \
 - **Predictable performance**: Runs on schedule, not blocking requests
 - **Metrics visibility**: Centralized logging of expiry stats
 
-## License
 
-MIT
